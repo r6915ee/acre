@@ -16,7 +16,7 @@ Acre = require("acre")
 local state = {
    helloWorld = function(_)
       print("Hello, world!")
-      end,
+   end,
 }
 
 Acre:switchState(state)

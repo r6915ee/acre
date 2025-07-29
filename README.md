@@ -14,13 +14,14 @@ applicable to acre if you wish to modify the state at runtime.
 Acre = require("acre")
 
 local state = {
-	helloWorld = function(_)
-		print("Hello, world!")
-	end,
+   helloWorld = function(_)
+      print("Hello, world!")
+      end,
 }
 
 Acre:switchState(state)
-Acre:callback("helloWorld") -- You can pass a variable number of arguments as well!
+-- You can pass a variable number of arguments as well!
+Acre:callback("helloWorld")
 ```
 
 ## License
